@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <title>Hello World!</title>
+    <style>
+        body{
+            font-family:calibri;
+        }
+        .cal-head{
+            transition: all 1s;
+            border-radius: 10px;
+            padding: 10px;
+            margin:60px auto;
+            width:50%;
+            background-color:lightgray;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .inpt{
+            text-align: center;
+        }
+        #val{
+            text-align: right;
+            border: none;
+            text-decoration: none;
+            font-size: 15px;
+            width: 90%;
+            padding: 10px;
+            border-radius: 10px;
+            font-family: calibri;
+
+        }
+        .cal-tail{
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .cal-tail input{
+            width: 50px;
+            color: white;
+            font-size: 15px;
+            background-color: brown;
+        }
+        .sr{
+            margin-top: 40px;
+        }
+        .team{
+            border-radius: 10px;
+            margin: 60px auto;
+            width: 80%;
+            background-color: lightgray;
+            padding: 10px;
+        }
+         .trim{
+             text-align: center;
+         }
+
+         .trim #text{
+             width: 60%;
+             padding: 10px;
+             font-size: 20px;
+             margin: 10px;
+             border-radius: 10px;
+         }
+         .trim #bb{
+             width: 200px;
+             color: red;
+             border-radius: 5px;
+         }
+         .cal-head{
+            display: none;
+         }
+         .h3{
+             display: none;
+             border-radius: 10px;
+             padding: 5px;
+             margin:10px auto;
+             width: 30%;
+             color:white;
+             font-size: 20px;
+             background-color: orangered;
+         }
+         .mow{
+             display: none;
+             text-align: center;
+         }
+         .mow h2{
+             width: 100%;
+             padding: 5px;
+             color: blueviolet;
+
+         }
+    </style>
+</head>
+<body>
+<div class="team trim">
+    <input type="text" id="text" placeholder="Enter Your Name"> <br>
+    <input type="button" id="bb" value="Submit">
+    <h3 class="h3">**Name is required!!</h3>
+
+</div>
+<div class="cal-head">
+    <h1>Welcome To My Calculator</h1>
+    <div class="inpt"> <input type="text" name="" id="val" value=""> </div>
+    <div class="sr">
+        <div class="cal-tail">
+            <input type="button" name="" id="one" value="1">
+            <input type="button" name="" id="two" value="2">
+            <input type="button" name="" id="three" value="3">
+            <input type="button" name="" id="plus" value="+">
+
+        </div>
+        <div class="cal-tail">
+            <input type="button" name="" id="four" value="4">
+            <input type="button" name="" id="five" value="5">
+            <input type="button" name="" id="six" value="6">
+            <input type="button" name="" id="minus" value="-">
+
+        </div>
+        <div class="cal-tail">
+            <input type="button" name="" id="seven" value="7">
+            <input type="button" name="" id="eight" value="8">
+            <input type="button" name="" id="nine" value="9">
+            <input type="button" name="" id="mul" value="*">
+        </div>
+
+        <div class="cal-tail">
+            <input type="button" name="" id="clear" value="Clear">
+            <input type="button" name="" id="zero" value="0">
+            <input type="button" name="" id="equal" value="=">
+            <input type="button" name="" id="div" value="/">
+        </div>
+
+
+
+
+
+    </div>
+    <div class="mow">
+
+        <h2>Nuvve Chesko Mowaa, Nenu Cheyyalenu!!</h2>
+    </div>
+
+</div>
+<script src="cal.js"></script>
+</body>
+</html>
